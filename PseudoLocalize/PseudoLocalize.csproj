@@ -47,6 +47,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="pseudolocalize.nuspec" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\PseudoLocalizer.Core.Tests\PseudoLocalizer.Core.Tests.csproj">
       <Project>{11F7946E-27F5-461E-A42C-B7C998752182}</Project>
       <Name>PseudoLocalizer.Core.Tests</Name>
