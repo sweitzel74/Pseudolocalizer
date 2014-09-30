@@ -1,2 +1,5 @@
 init:
   - git config --global core.autocrlf true
+
+after_build:
+  - choco pack
