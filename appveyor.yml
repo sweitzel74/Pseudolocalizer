@@ -1,5 +1,8 @@
 init:
   - git config --global core.autocrlf true
 
-after_build:
+after_test:
   - choco pack .\PseudoLocalize\PseudoLocalize.nuspec
+  
+artifacts:
+  - path: '**\*.nupgk'
