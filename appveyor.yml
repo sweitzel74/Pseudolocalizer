@@ -5,4 +5,4 @@ after_test:
   - choco pack .\PseudoLocalize\PseudoLocalize.nuspec
   
 artifacts:
-  - path: '**\*.nupgk'
+  - path: '**\*.nupkg'
