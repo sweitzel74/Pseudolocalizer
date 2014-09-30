@@ -47,7 +47,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="pseudolocalize.nuspec" />
+    <None Include="PseudoLocalize.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PseudoLocalizer.Core.Tests\PseudoLocalizer.Core.Tests.csproj">
